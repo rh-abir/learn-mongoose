@@ -17,7 +17,7 @@ mongoose
   .catch((err) => console.log(err));
 
 // application routes
-app.use('/todo', todoHandler);
+app.use('/todo', todoHandler); 
 
 
 // default error handler
